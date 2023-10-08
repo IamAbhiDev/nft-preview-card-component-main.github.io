@@ -16,15 +16,36 @@
 
 <body>
 
-  Equilibrium #3429
+  <h1 class="sr-only">NFT preview card component</h1>
 
-  Our Equilibrium collection promotes balance and calm.
+  <main class="card">
+    <div class="card__container">
+      <img src="./images/image-equilibrium.jpg" alt="NFT" class="card__container__img">
+      <div class="card__container__overlay"></div>
+      <img src="./images/icon-view.svg" alt="view icon" class="card__container__view">
+    </div>
 
-  0.041 ETH
-  3 days left
+    <h2 class="card__heading">Equilibrium #3429</h2>
 
-  Creation of Jules Wyvern
+    <p class="card__text">Our Equilibrium collection promotes balance and calm.</p>
 
+    <div class="card__info">
+      <div class="card__info__eth">
+        <img src="./images/icon-ethereum.svg" alt="" class="card__info__eth__logo">
+        <p class="card__info__eth__value">0.041 ETH</p>
+      </div>
+
+      <div class="card__info__time">
+        <img src="./images/icon-clock.svg" alt="" class="card__info__time__logo">
+        <p class="card__info__time__text">3 days left</p>
+      </div>
+    </div>
+
+    <footer class="card__footer">
+      <img src="./images/image-avatar.png" alt="creator's profile picture" class="card_footer__pic">
+      <p class="card__footer__info">Creation of <span class="card__footer__info__name">Jules Wyvern</span></p>
+    </footer>
+  </main>
 </body>
 
 </html>
